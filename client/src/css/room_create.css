@@ -1,0 +1,53 @@
+.con{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+.create-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(56, 56, 235);
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.create-btn{
+    width: 20%;
+}
+.group-list{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: blue;
+}
+.group-list a{
+    margin: 10px 0;
+}
+.group{
+    width: 90%;
+    height: 5vh;
+}
+.g-list{
+    width: 100%;
+    height: 40px;
+    background-color: aliceblue;
+}
+.con form{
+    width: 600px;
+    height: 600px;
+
+}
+.sts{
+    display: flex;
+}
+.add input{
+    width: 20%;
+}

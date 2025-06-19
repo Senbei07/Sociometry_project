@@ -1,0 +1,7 @@
+nav.Navbar{ 
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    position: absolute ;
+    width: 100%;
+    background-color: aliceblue;
+}

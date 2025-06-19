@@ -1,0 +1,32 @@
+div.container{
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue;
+    background-color: blue; */
+}
+
+div.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+div.join{
+
+    form{
+        display: flex;
+        flex-direction: column;
+
+        *{
+            width: 200px;
+            height: 30px;
+            margin: 5px 0 5px 0
+        }
+    }
+
+}

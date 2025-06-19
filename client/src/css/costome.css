@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.costume {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-edit {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-edit:hover {
+  background-color: #0056b3;
+}
+
+.cos-edit {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.cos-edit.edit-active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.button {
+  display: flex;
+  justify-content: space-around;
+  background-color: #007bff;
+  padding: 10px 0;
+}
+
+.button .btn-cha,
+.button .btn-acces {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button .btn-cha:hover,
+.button .btn-acces:hover {
+  background-color: #0056b3;
+}
+
+.list {
+  padding: 20px;
+  display: none;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.list.active {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.List {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.List:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
